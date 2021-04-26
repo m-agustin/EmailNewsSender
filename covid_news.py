@@ -19,7 +19,10 @@ for title in soup.find_all("h2", {"class": "teaserTitle"}):
 
     if "COVID" in news and urls:
         covid_news = news, urls
-        
-        message = "Subject: New covid news!\n\n"
-        message += f"{covid_news}\n"
-        send_email(message)
+    #On the page, finds only the news that contains "COVID" and scrapes it into a [ ]
+
+    
+    # Sends email using module send_email
+    message = "Subject: New covid news!\n\n"
+    message += f"{covid_news}\n"
+    send_email(message)
