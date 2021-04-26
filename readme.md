@@ -1,11 +1,11 @@
 # CovidNewsEmailer
 
-**CovidNewsEmailer** is an automated script that webscrapes a site and automatically emails the results to the receiver's email address.
+**CovidNewsEmailer** is an automated script that web scrapes a site and automatically emails the results to the receiver's email address.
 
 ## Contains:
 * **send_email.py**: automated script that sends messages from an email to another email.
     * It requires the user to input the receiver's email, and the sender's email and passpord
-* **covid_news.py**: automated script that incorporates the module beautifulsoup to webscrape the website [Cp24](https://www.cp24.com/news).
+* **covid_news.py**: automated script that incorporates the module beautifulsoup to web scrape the website [Cp24](https://www.cp24.com/news).
 
 
 ## To use:
